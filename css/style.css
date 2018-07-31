@@ -1,6 +1,29 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  background-color: #284096;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 3em; /* 48px */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.25em; /* 20px */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 100%; /* 16px */
+  line-height: 1.3;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  font-size: .87em; /* 14px */
 }
 
 nav {
@@ -8,7 +31,10 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  font-size: 100%;
 }
+
+
 
 .logo {
   margin: 20px;
@@ -50,3 +76,12 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#ea7e3a; } /* unvisited */
+a:visited { color:#a34401; } /* visited */
+a:hover { color:#ffb799; } /* mouse over */
+a:active { color:#FFFFFF; } /* selected */
